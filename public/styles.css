@@ -1,0 +1,86 @@
+body, html {
+	height: 100%;
+	background-color: #e4f1fe;
+}
+
+body{
+	margin: 0;
+}
+
+*{
+	font-family: 'Scope One', sans-serif;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.46;
+	text-align: center;
+}
+
+p {
+	/*text-align: center;*/
+	font-size: 22px;
+}
+
+h2{
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	background-color: #b8daef;
+}
+
+a:hover{
+	color: white;
+}
+
+.wrapper{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	margin-left: 31%;
+	margin-right: 31%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.skillstext{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.skillscharts{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+	line-height: 2;
+	font-size: 18px;
+}
+
+#myChart, #myChart2, #myChart3, #myChart4, #myChart5, #myChart6{
+	padding-bottom: 40px;
+}
+
+@media (max-width:750px){
+	.wrapper{
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	*{
+		line-height: 1.45;
+	}
+}
