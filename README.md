@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://media.serious.io/f57ada5f19355f62/serious.gif"/>
+  <img src="http://78.media.tumblr.com/c92779d953ec74bc8a5b995841ec3a9b/tumblr_n2apcnxEzU1s9rrcgo1_500.gif"/>
 </p>
