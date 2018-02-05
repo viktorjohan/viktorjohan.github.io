@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Viktor</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='shortcut icon' type='image/x-icon' href='pepe_light.ico' />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Scope+One|Lora" rel="stylesheet">
+	<script type="text/javascript">
+	window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+      heap.load("450523359");
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="cont">
+			<p>Hi, I'm <a href="https://se.linkedin.com/in/viktorjohansson01">Viktor Johansson</a>, web developer in-the-making from Gothenburg. Fond of fun internet creations. Take a look at my <a href="projects.html"> projects</a> &amp; <a href="skills">skills</a>. Contact me <a href="mailto:viktor.johansson.298@gmail.com?subject=&#128056;">here</a>!</p>
+		</div>
+	</div>
+	<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+		  $("a").mouseover(function(){
+		    $('body').css({'background-color':'#719eb7', "transition": "background-color 0.4s ease"});
+		  });
+		  $("a").mouseleave(function(){
+		    $('body').css('background-color','#e4f1fe');
+		  });
+		  window.sr = ScrollReveal();
+		  sr.reveal('.cont', {duration: 1400});
+		});
+	</script>
+</body>
+</html>
