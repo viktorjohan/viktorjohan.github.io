@@ -3,11 +3,11 @@ body, html {
 	background-color: #e4f1fe;
 }
 
-body{
+body {
 	margin: 0;
 }
 
-*{
+* {
 	font-family: 'Scope One', sans-serif;
 	color: #000;
 	-webkit-font-smoothing: antialiased;
@@ -20,20 +20,26 @@ p {
 	font-size: 22px;
 }
 
-h2{
+h2 {
 	font-weight: lighter;
 }
 
-a{
+a {
 	text-decoration: none;
 	background-color: #b8daef;
 }
 
-a:hover{
+.link-projects {
+	background-color: #b8daef;
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+a:hover {
 	color: white;
 }
 
-.wrapper{
+.wrapper {
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -47,13 +53,13 @@ a:hover{
   transform: translateY(-50%);
 }
 
-.skillstext{
+.skillstext {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 25px;
 }
 
-.skillscharts{
+.skillscharts {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -61,12 +67,12 @@ a:hover{
 	margin-right: 15%;
 }
 
-ul{
+ul {
 	list-style-type: none;
 	padding: 0;
 }
 
-li{
+li {
 	line-height: 2;
 	font-size: 18px;
 }
